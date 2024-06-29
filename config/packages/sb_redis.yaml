@@ -1,0 +1,5 @@
+sb_redis:
+    clients:
+        default:
+            $options:    []
+            $parameters: ['tcp://89.45.94.84:6379?database=gure_dev']

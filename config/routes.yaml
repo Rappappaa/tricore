@@ -1,0 +1,12 @@
+api_login_check:
+    path: /api/login_check
+    
+api_user_store:
+    path: /
+    methods: GET
+    controller: App\Controller\HomeController::index
+
+api_user_login:
+    path: /api/login
+    methods: POST
+    controller: App\Controller\HomeController::loginUser
